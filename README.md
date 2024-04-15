@@ -1,7 +1,6 @@
 # Build an ETL pipeline using SSIS
-This project provides a starting point for building an ETL pipeline using SQL Server Integration Services (SSIS) in Visual Studio 2019.
-# Goal
-The primary goal of the project is to provide a basic solution for anyone who is building a new ETL pipeline using SSIS.
+Building an ETL (Extract, Transform, Load) pipeline using SQL Server Integration Services (SSIS) in Visual Studio 2019 offers a robust framework for data integration, transformation, and loading tasks
+
 # Prerequisites
 * Visual Studio 2019 installed. Note Visual Studio 2017 works slightly different regarding SSIS and this article may not work exactly for Visual Studio 2017.
 * <a href="https://www.mssqltips.com/sqlservertip/6481/install-sql-server-integration-services-in-visual-studio-2019/">Install SQL Server Integration Services in Visual Studio 2019 </a>
@@ -10,6 +9,7 @@ The primary goal of the project is to provide a basic solution for anyone who is
 * The data source is the database of AdventureWorks 2019. <a href="https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks2019.bak">`Download here`
 # Overview
 The dataset represents a sample dataset for a bicycle company. Our objective is to design and implement an ETL solution to generate sales reports per employee, sales reports by region, reports on the number of orders by employee, reports on the number of orders by region, reports on sales by product subcategory, and reports on sales by product and region.
+
 <br><br><i> Overview - ETL Architecture Design </i>
 <img width=100% src="Images/ETL-process.svg">
  # First-time ETL 
@@ -59,7 +59,7 @@ The second stream will solely extract the IDs column from the source and store t
 
 -----------------------------------
 !!! I HAVE PLACED ALL THE CODE FOR SSIS IN THE PACKAGE SECTION `Package-SSIS` <br>
-If you have any questions about the code or encounter any issues while creating your ETL flow, please do not hesitate to contact me via email. Thank you.
+
 
 
   
